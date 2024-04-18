@@ -4,37 +4,37 @@
 }
 
 
-.logo{
+.logo {
     background-color: #222;
     padding: 10px;
     text-align: center;
 }
 
-.logo1{
-    background-position:left ;
-    background-color:#c78c06 ;
+.logo1 {
+    background-position: left;
+    background-color: #c78c06;
     padding: 5px;
     margin-top: 2%;
     padding: 5px;
- } 
+}
 
-.nav{
-    float: center; 
+.nav {
+    float: center;
     list-style-type: none;
-    line-height:3;
+    line-height: 3;
     min-height: 30px;
     font-size: 40px;
     font-family: sans-serif;
 }
 
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
-    color:#c78c06 ;
+    color: #c78c06;
     line-height: 3;
 }
 
-.connect{
+.connect {
     background-color: #c78c06;
     color: #fff;
     border: none;
@@ -49,37 +49,37 @@ input[type="search"] {
     box-sizing: border-box;
 }
 
-.search-container{
-    display: flex; 
-    align-items: center; 
+.search-container {
+    display: flex;
+    align-items: center;
 }
 
-.search-button{
-   
+.search-button {
+
     background-color: #c78c06;
     border: none;
     cursor: pointer;
 }
 
-.search-button img{
-    width: 43px; /
-    height: 43px;
-    vertical-align: middle; 
+.search-button img {
+    width: 43px;/ height: 43px;
+    vertical-align: middle;
 }
 
 
 
-.banner-image{
+.banner-image {
     position: relative;
     text-align: center;
     margin-top: 20px;
 }
 
-.banner-image img{
+.banner-image img {
     width: 100%;
-    vertical-align: top; 
+    vertical-align: top;
 }
-.banner-text{
+
+.banner-text {
     position: absolute;
     top: 5%;
     left: 0;
@@ -90,15 +90,16 @@ input[type="search"] {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 7vw;
     text-align: justify;
-    line-height: 1.5; 
-    font-family: sans-serif; 
+    line-height: 1.5;
+    font-family: sans-serif;
 }
 
-.banner-text p{
-    font-size: 1.5vw;   
-   /* text-align: justify;*/
+.banner-text p {
+    font-size: 1.5vw;
+    /* text-align: justify;*/
 }
-.connect{
+
+.connect {
     display: inline-block;
     background-color: #c78c06;
     color: black;
@@ -116,14 +117,14 @@ input[type="search"] {
     border: none;
     cursor: pointer;
     position: relative;
-    font-size: 45px; 
+    font-size: 45px;
     padding: 30px 50px;
 }
 
 .connect::after {
-    content: '\25B6'; 
-    font-weight: bold; 
-    font-size: 2em; 
+    content: '\25B6';
+    font-weight: bold;
+    font-size: 2em;
     margin-left: 8px;
     vertical-align: middle;
 }
@@ -137,9 +138,10 @@ input[type="search"] {
     display: block;
     margin: 0 auto;
     padding-top: 2%;
-    width: 100%; 
-    
+    width: 100%;
+
 }
+
 .about-us h1 {
     font-weight: bold;
     font-size: 5em;
@@ -147,13 +149,15 @@ input[type="search"] {
     margin-left: 2%;
     margin-top: 2%;
 }
-.about-us p{
+
+.about-us p {
     font-size: 2em;
     font-family: sans-serif;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 2%;
 }
+
 h3 {
     font-weight: bold;
     font-size: 5em;
@@ -172,10 +176,12 @@ h3 {
 .transformation img {
     display: block;
     margin: 0 auto;
-    width: 100%; ;
+    width: 100%;
+    ;
 
 }
-.connect p{
+
+.connect p {
     font-size: 2em;
     font-family: sans-serif;
     padding-top: 2%;
@@ -219,7 +225,7 @@ h3 {
     border: none;
     cursor: pointer;
     position: relative;
-    font-size: 45px; 
+    font-size: 45px;
     padding: 30px 50px;
 }
 
@@ -234,7 +240,7 @@ h3 {
 .Transformation img {
     display: block;
     margin: 0 auto;
-    width: 100%; 
+    width: 100%;
 }
 
 .Transformation button {
@@ -279,98 +285,175 @@ h3 {
     position: relative;
     max-width: 100%;
     color: #fff;
-  }
-  
-  #vision .vision-overlay {
+}
+
+#vision .vision-overlay {
     background-image: url('images/vision.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; 
+    height: 300px;
     position: relative;
-  }
-  
-  .vision-overlay img {
+}
+
+.vision-overlay img {
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  .text-overlay {
+}
+
+.text-overlay {
     position: absolute;
     top: 50%;
-    left: 20px; 
+    left: 20px;
     transform: translateY(-50%);
     text-align: left;
-    max-width: 600px; 
-  }
-  
-  
-  
-  #vision .vision-overlay img {
+    max-width: 600px;
+}
+
+
+
+#vision .vision-overlay img {
     height: 300px;
-  }
-  
-  #vision h3 {
+}
+
+#vision h3 {
     font-size: 2em;
-    margin-bottom: 1em; 
     text-align: left;
-  }
-  
-  #vision p {
-    font-size: 1em; 
-    margin-bottom: 1em; 
-    text-align: left;
-  }
-  
-  .learn-more {
+    margin-bottom: 1em;
+}
+
+#vision p {
     font-size: 1em;
-    background-color: #003366; 
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+
+.learn-more {
+    font-size: 1em;
+    background-color: #003366;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .learn-more:hover {
-    background-color: #004080;
-  }
+}
 
-.team {
+.learn-more:hover {
+    background-color: #004080;
+}
+
+h5 {
+    color: #333;
+    font-size: 5em;
+    margin-bottom: 8px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#team {
     background-color: #ffe6ac;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.team .description {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
-}
-
-.team .description .image {
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.team .description h6 {
-    font-weight: bold;
+h6 {
+    color: #090909;
     font-size: 5em;
+    margin-bottom: 8px;
+    text-align: left;
     font-family: sans-serif;
-    margin-left: 2%;
-    margin-top: 2%;
 }
 
-.team .description p {
-    color:black;
+h7 {
+    color: #040404;
+    font-size: 2em;
+    text-align: left;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
 }
 
-.team .description hr {
-    border-color: #c78c06;
-    margin: 10px auto;
-    width: 50px;
+hr {
+    border: 0;
+    height: 5px;
+    background-color: #d48836;
+    margin-bottom: 16px;
+
+}
+
+
+p2 {
+    text-align: left;
+    color: #121111;
+    line-height: 1.6;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+#contact-form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form h8 {
+    color: #0a0a0a;
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+
+.form {
+    background-color: #fff;
+    padding: 15px;
+}
+.form h9 {
+    color: #060606;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+  }
+
+  .form label {
+    display: block; 
+    color: #020202;
+    font-family: sans-serif;
+    margin-bottom: 5px; 
+  }
+
+
+  .form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  padding: 10px;  
+  width: 100%; 
+  border: 1px solid #ccc;  
+  margin-bottom: 20px; 
+  border-radius: 5px; 
+}
+
+.form textarea {
+  height: 150px; 
+}
+
+.button {
+  background-color: #0f0f0f; 
+  color: #a96836;
+  font-size: 2em; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.form button {
+  background-color: #444; 
 }
