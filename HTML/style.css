@@ -427,6 +427,7 @@ p2 {
     color: #020202;
     font-family: sans-serif;
     margin-bottom: 5px; 
+    font-size: 1.8em;
   }
 
 
@@ -457,3 +458,4 @@ p2 {
 .form button {
   background-color: #444; 
 }
+
